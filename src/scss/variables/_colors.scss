@@ -1,0 +1,15 @@
+// Pre-state grayscale colors used in other variables
+
+$gray-800: #343a40;
+
+// Override Bootstrap color system
+
+$maroon: #60223b;
+
+// Override Bootstrap default state colors
+
+$primary: $maroon;
+
+// Override Bootstrap yiq lightness value
+
+$yiq-contrasted-threshold: 205;
