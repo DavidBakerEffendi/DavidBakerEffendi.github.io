@@ -51,6 +51,8 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#leadership') Leadership
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Awards
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
 
         // Page Content
         .container-fluid.p-0
@@ -340,6 +342,87 @@ html(lang='en')
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
                             | The Duke of Edinburgh's Award (2015)
+
+            // Projects
+            section#projects.resume-section
+               .resume-section-content
+                    h2.mb-5 Projects
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 GraPL
+                            .subheading.mb-3 Graph-based Program Analysis Library
+                            p
+                                | GraPL is a three-part library written in Kotlin with the purpose of extracting a program's code-property
+                                | graph (CPG) from JVM byte-code. The graph is persisted in a graph database and the library intends to 
+                                | support more and more graph databases. Dataflow analysis is then performed on the CPG to track multiple
+                                | dataflow issues.
+                            p
+                                | This project is part of my MSc and is my current main focus. These are the three parts of the code:
+                            ul
+                                li CPG extractor: 
+                                    a(href="https://github.com/DavidBakerEffendi/j2GraPL") j2GraPL
+                                li Graph database driver:
+                                    a(href="https://github.com/DavidBakerEffendi/GraPLHook4j") GraPLHook4j
+                                li CPG analysis library: WIP
+                            p 
+                                | A repository showing example use of the library can be found
+                                a(href="https://github.com/DavidBakerEffendi/GraPL-Examples") here.
+
+                        .flex-shrink-0
+                            span.text-primary March 2020 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 VSC TigerGraph Extension
+                            .subheading.mb-3 Syntax highlighting tool for GSQL
+                            p
+                                | A community driven GSQL extension for VS Code. Due to the absence of extensions for GSQL on VS Code (one
+                                | of my main code editors) I took the initiative to make my own starting with syntax highlighting. This can
+                                | be found
+                                a(href="https://github.com/DavidBakerEffendi/vsc-gsql-extension") here.
+
+                        .flex-shrink-0
+                            span.text-primary May 2020 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Yelp Open Dataset Quickstarters
+                            .subheading.mb-3 Quick ways to get started with data analysis on the Yelp dataset
+                            p
+                                | I've open-sourced three small projects that can help one get started with analysis on the Yelp dataset
+                                | by providing a data cleaning script and import guides for TigerGraph and Neo4j.
+                            p
+                                | This code was used for my 2019 honours project and for the RW334 web development course. These are the
+                                | three parts of the code:
+                            ul
+                                li Data cleaning and subsetting: 
+                                    a(href="https://github.com/DavidBakerEffendi/yelp-normalization") yelp-normalization
+                                li TigerGraph import guide:
+                                    a(href="https://github.com/DavidBakerEffendi/tigergraph-yelp") tigergraph-yelp
+                                li Neo4j import guide:
+                                    a(href="https://github.com/DavidBakerEffendi/neo4j-yelp") neo4j-yelp
+
+                        .flex-shrink-0
+                            span.text-primary March 2019 - March 2020
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
+                            h3.mb-0 Providentia
+                            .subheading.mb-3 Database benchmarking suite
+                            p
+                                | This is a web application that measures the query response times of 3 databases on queries and data 
+                                | analysis similar to those found in the real-world. The three databases benchmarked are JanusGraph,
+                                | PostgreSQL, and TigerGraph.
+
+                            p
+                                | This is the
+                                a(href="https://github.com/DavidBakerEffendi/providentia") code
+                                | behind my 2019 honours project and is what collected the results for
+                                a(href="https://www.mdpi.com/1999-5903/12/5/78") my publication.
+
+                        .flex-shrink-0
+                            span.text-primary March 2019 - March 2020
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
