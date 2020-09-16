@@ -240,8 +240,8 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Interests</h2>
-                    <p>Apart from studies and internships, I enjoy brewing homemade craft beers, gaming and exercise in the form of gyms, runs, and hikes. I also enjoy the fine wine of Stellenbosch and Scotch will always be my favourite of the whiskies. In school and my earlier university years I was a member of the ballroom and Latin-American dancing societies.</p>
-                    <p class="mb-0">In my evenings I like to either play guitar, watch series/anime/YouTube, or read interesting articles or books. I have a big interest in fullstack web development and learning about graph related technologies. I am actively part of the TigerGraph open-source community and software developed as a result of my studies are all open-sources.</p>
+                    <p>Apart from studies and internships, I enjoy brewing homemade craft beers, gaming and exercise in the form of gym and occasional runs. I also enjoy the fine wine of Stellenbosch and Scotch will always be my favourite of the whiskies. In high school and my undergraduate I was a member of the ballroom and Latin-American dancing societies.</p>
+                    <p class="mb-0">In my evenings I like to either play guitar, watch series/anime/YouTube, or read interesting articles or books. I have a big interest in fullstack web development and learning about graph related technologies. I am actively part of the TigerGraph open-source community and software developed as a result of my studies are all open-source.</p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -278,6 +278,10 @@
                     <h2 class="mb-5">Awards & Certifications</h2>
                     <ul class="fa-ul mb-0">
                         <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            <a href="https://devpost.com/software/plume-cpg-analysis-library">TigerGraph Graphathon: 2nd Place (2020)</a>
+                        </li>
+                        <li>
                             <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
                             <a href="assets/img/aws-virtual-day.png">AWS Africa Region Virtual Day (2020)</a>
                         </li>
@@ -302,24 +306,19 @@
                     <h2 class="mb-5">Projects</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">GraPL</h3>
-                            <div class="subheading mb-3">Graph-based Program Analysis Library</div>
-                            <p>GraPL is a three-part library written in Kotlin with the purpose of extracting a program's code-property graph (CPG) from JVM byte-code. The graph is persisted in a graph database and the library intends to support more and more graph databases. Dataflow analysis is then performed on the CPG to track multiple dataflow issues.</p>
-                            <p>This project is part of my MSc and is my current main focus. These are the three parts of the code:</p>
-                            <ul>
-                                <li>
-                                    CPG extractor:
-                                    <a href="https://github.com/DavidBakerEffendi/j2GraPL">j2GraPL</a>
-                                </li>
-                                <li>
-                                    Graph database driver:
-                                    <a href="https://github.com/DavidBakerEffendi/GraPLHook4j">GraPLHook4j</a>
-                                </li>
-                                <li>CPG analysis library: WIP</li>
-                            </ul>
+                            <h3 class="mb-0">Plume</h3>
+                            <div class="subheading mb-3">A Soot-based, open-source code-property graph (CPG) analysis library</div>
+                            <p>Plume is a three-part library written in Kotlin with the purpose of extracting a program's code-property graph (CPG) from JVM byte-code. The graph is persisted in a graph database and the library intends to support more and more graph databases. Dataflow analysis is then performed on the CPG to track multiple dataflow issues.</p>
                             <p>
-                                A repository showing example use of the library can be found
-                                <a href="https://github.com/DavidBakerEffendi/GraPL-Examples">here.</a>
+                                This project is part of my MSc and is my current main focus. The source code and example usage can be found on the project's
+                                <a href="https://github.com/plume-oss">GitHub Organizations page</a>
+                                and documentation found
+                                <a href="https://plume-oss.github.io/plume-docs/">here.</a>
+                            </p>
+                            <p>
+                                Plume was submitted to the
+                                <a href="https://tigergraph2020.devpost.com/">TigerGraph 2020 Graphathon</a>
+                                and won 2nd place.
                             </p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 2020 - Present</span></div>
