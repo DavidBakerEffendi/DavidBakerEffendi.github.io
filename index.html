@@ -30,12 +30,11 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#conferences">Conferences</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#leadership">Leadership</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                 </ul>
             </div>
         </nav>
@@ -69,6 +68,14 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-0">Part-Time Research Engineer</h3>
+                            <div class="subheading mb-3">Private</div>
+                            <p>A private offering to onboard start-ups using Joern for their core program analysis. Services include handling private feature requests to enhance current static analysis in the form of new features, bug fixes, or performance upgrades. Client locations range from USA, Israel, and India.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Nov 2022 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h3 class="mb-0">Class Assistant and Hons Project Co-Supervisor</h3>
                             <div class="subheading mb-3">Stellenbosch University</div>
                             <p>Help students with course material during fixed sessions and online. Courses I have assisted or am currently assisting with are: vulnerability discovery and code analysis, functional programming, databases and web programming, computer networks, software engineering, and applied discrete mathematics.</p>
@@ -81,7 +88,7 @@
                             <div class="subheading">AWS, Santa Clara, CA</div>
                             <div class="text-primary mb-3">June 2022 - September 2022</div>
                             <p>
-                                Under the Amazon CodeGuru group as an applied science intern. Collaborated on a novel static code analysis rule mining pipeline that resulted in the acceptance of the following paper at ICSE'23:
+                                Under the Amazon CodeGuru group as an applied science intern, we successfully collaborated on a novel static code analysis rule mining pipeline that resulted in the acceptance of the following paper at ICSE'23:
                                 <a href="https://conf.researchr.org/track/icse-2023/icse-2023-SEIP#event-overview">A Language-agnostic Framework for Mining Static Analysis Rules from Code Changes</a>
                             </p>
                             <div class="subheading">ACI Worldwide, CPT</div>
@@ -151,6 +158,97 @@
                 </div>
             </section>
             <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Joern</h3>
+                            <div class="subheading mb-3">Open-source code analysis platform based on code property graphs</div>
+                            <p>
+                                I am an
+                                <a href="https://github.com/joernio/joern/graphs/contributors">active contributor</a>
+                                on
+                                <a href="https://joern.io">Joern</a>
+                                and help maintain the project while contributing my research efforts as new features. I largely own the
+                                <code>jimple2cpg</code>
+                                language frontend, dynamic type recovery, and call graph analysis algorithms. I have also contributed as minor improvements to the data-flow tracking engine in the form of bug fixes and performance improvements.
+                            </p>
+                            <p>Outside of contributions, I also review pull requests for contributors outside of the core Joern.io group and also offer a paid service to onboard companies who wish to integrate Joern as part of their proprietary systems.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2021 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Plume</h3>
+                            <div class="subheading mb-3">JVM bytecode code-property graph (CPG) language frontend</div>
+                            <p>Plume is a Scala library with the purpose of extracting a program's code-property graph (CPG) from JVM bytecode. The graph is persisted in a graph database of which the library supports multiple. Dataflow analysis is then performed on the CPG to track multiple dataflow issues.</p>
+                            <p>
+                                This project is part of my MSc and is my current main focus. The source code and example usage can be found on the project's
+                                <a href="https://github.com/plume-oss">GitHub Organizations page</a>
+                                and documentation found
+                                <a href="https://plume-oss.github.io/plume-docs/">here.</a>
+                            </p>
+                            <p>
+                                Plume was submitted to the
+                                <a href="https://tigergraph2020.devpost.com/">TigerGraph 2020 Graphathon</a>
+                                and won 2nd place.
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2020 - Present (maintenance mode)</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">VSC TigerGraph Extension</h3>
+                            <div class="subheading mb-3">Syntax highlighting tool for GSQL</div>
+                            <p>
+                                A community driven GSQL extension for VS Code. Due to the absence of extensions for GSQL on VS Code (one of my main code editors) I took the initiative to make my own starting with syntax highlighting. This can be found
+                                <a href="https://github.com/DavidBakerEffendi/vsc-gsql-extension">here.</a>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2020 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Yelp Open Dataset Quickstarters</h3>
+                            <div class="subheading mb-3">Quick ways to get started with data analysis on the Yelp dataset</div>
+                            <p>I've open-sourced three small projects that can help one get started with analysis on the Yelp dataset by providing a data cleaning script and import guides for TigerGraph and Neo4j.</p>
+                            <p>This code was used for my 2019 honours project and for the RW334 web development course. These are the three parts of the code:</p>
+                            <ul>
+                                <li>
+                                    Data cleaning and subsetting:
+                                    <a href="https://github.com/DavidBakerEffendi/yelp-normalization">yelp-normalization</a>
+                                </li>
+                                <li>
+                                    TigerGraph import guide:
+                                    <a href="https://github.com/DavidBakerEffendi/tigergraph-yelp">tigergraph-yelp</a>
+                                </li>
+                                <li>
+                                    Neo4j import guide:
+                                    <a href="https://github.com/DavidBakerEffendi/neo4j-yelp">neo4j-yelp</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2019 - March 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Providentia</h3>
+                            <div class="subheading mb-3">Database benchmarking suite</div>
+                            <p>This is a web application that measures the query response times of 3 databases on queries and data analysis similar to those found in the real-world. The three databases benchmarked are JanusGraph, PostgreSQL, and TigerGraph.</p>
+                            <p>
+                                This is the
+                                <a href="https://github.com/DavidBakerEffendi/providentia">code</a>
+                                behind my 2019 honours project and is what collected the results for
+                                <a href="https://www.mdpi.com/1999-5903/12/5/78">my publication.</a>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2019 - March 2020</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
@@ -181,15 +279,6 @@
                             AWS
                         </li>
                     </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from studies and internships, I enjoy brewing homemade craft beers, gaming and exercise in the form of gym and occasional runs. I also enjoy the fine wine of Stellenbosch and Scotch will always be my favourite of the whiskies. Most recently find myself occupied with cooking, baking, and gardening.</p>
-                    <p class="mb-0">In high school and my undergraduate I was a member of the ballroom and Latin-American dancing societies. This is something I've only found useful at weddings these days.</p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -281,96 +370,6 @@
                             <div class="subheading mb-3">Helderberg Men's Residence</div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">October 2016 - October 2017</span></div>
-                    </div>
-                </div>
-            </section>
-            <!-- Projects-->
-            <section class="resume-section" id="projects">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Projects</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Joern</h3>
-                            <div class="subheading mb-3">Open-source code analysis platform based on code property graphs</div>
-                            <p>
-                                I am an
-                                <a href="https://github.com/joernio/joern/graphs/contributors">active contributor</a>
-                                on
-                                <a href="https://joern.io">Joern</a>
-                                and help maintain the project while contributing my research efforts as new features. I largely own the
-                                <code>jimple2cpg</code>
-                                language frontend, dynamic type recovery, and call graph analysis algorithms. I have also contributed as minor improvements to the data-flow tracking engine in the form of bug fixes and performance improvements.
-                            </p>
-                            <p>Outside of contributions, I also review pull requests for contributors outside of the core Joern.io group and also offer a paid service to onboard companies who wish to integrate Joern as part of their proprietary systems.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2021 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Plume</h3>
-                            <div class="subheading mb-3">JVM bytecode code-property graph (CPG) language frontend</div>
-                            <p>Plume is a Scala library with the purpose of extracting a program's code-property graph (CPG) from JVM bytecode. The graph is persisted in a graph database of which the library supports multiple. Dataflow analysis is then performed on the CPG to track multiple dataflow issues.</p>
-                            <p>
-                                This project is part of my MSc and is my current main focus. The source code and example usage can be found on the project's
-                                <a href="https://github.com/plume-oss">GitHub Organizations page</a>
-                                and documentation found
-                                <a href="https://plume-oss.github.io/plume-docs/">here.</a>
-                            </p>
-                            <p>
-                                Plume was submitted to the
-                                <a href="https://tigergraph2020.devpost.com/">TigerGraph 2020 Graphathon</a>
-                                and won 2nd place.
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2020 - Present (maintenance mode)</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">VSC TigerGraph Extension</h3>
-                            <div class="subheading mb-3">Syntax highlighting tool for GSQL</div>
-                            <p>
-                                A community driven GSQL extension for VS Code. Due to the absence of extensions for GSQL on VS Code (one of my main code editors) I took the initiative to make my own starting with syntax highlighting. This can be found
-                                <a href="https://github.com/DavidBakerEffendi/vsc-gsql-extension">here.</a>
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">May 2020 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Yelp Open Dataset Quickstarters</h3>
-                            <div class="subheading mb-3">Quick ways to get started with data analysis on the Yelp dataset</div>
-                            <p>I've open-sourced three small projects that can help one get started with analysis on the Yelp dataset by providing a data cleaning script and import guides for TigerGraph and Neo4j.</p>
-                            <p>This code was used for my 2019 honours project and for the RW334 web development course. These are the three parts of the code:</p>
-                            <ul>
-                                <li>
-                                    Data cleaning and subsetting:
-                                    <a href="https://github.com/DavidBakerEffendi/yelp-normalization">yelp-normalization</a>
-                                </li>
-                                <li>
-                                    TigerGraph import guide:
-                                    <a href="https://github.com/DavidBakerEffendi/tigergraph-yelp">tigergraph-yelp</a>
-                                </li>
-                                <li>
-                                    Neo4j import guide:
-                                    <a href="https://github.com/DavidBakerEffendi/neo4j-yelp">neo4j-yelp</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2019 - March 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Providentia</h3>
-                            <div class="subheading mb-3">Database benchmarking suite</div>
-                            <p>This is a web application that measures the query response times of 3 databases on queries and data analysis similar to those found in the real-world. The three databases benchmarked are JanusGraph, PostgreSQL, and TigerGraph.</p>
-                            <p>
-                                This is the
-                                <a href="https://github.com/DavidBakerEffendi/providentia">code</a>
-                                behind my 2019 honours project and is what collected the results for
-                                <a href="https://www.mdpi.com/1999-5903/12/5/78">my publication.</a>
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2019 - March 2020</span></div>
                     </div>
                 </div>
             </section>
