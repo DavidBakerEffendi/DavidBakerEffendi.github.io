@@ -44,17 +44,16 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#skills') Skills
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
+                        a.nav-link.js-scroll-trigger(href='#skills') Skills
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Awards
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#conferences') Conferences
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#leadership') Leadership
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+
 
         // Page Content
         .container-fluid.p-0
@@ -94,6 +93,18 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
+                            h3.mb-0 Part-Time Research Engineer
+                            .subheading.mb-3 Private
+                            p
+                                | A private offering to onboard start-ups using Joern for their core program analysis. Services include 
+                                | handling private feature requests to enhance current static analysis in the form of new features, bug 
+                                | fixes, or performance upgrades. Client locations range from USA, Israel, and India.
+
+                        .flex-shrink-0
+                            span.text-primary Nov 2022 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
                             h3.mb-0 Class Assistant and Hons Project Co-Supervisor
                             .subheading.mb-3 Stellenbosch University
                             p
@@ -112,8 +123,8 @@ html(lang='en')
                             .subheading AWS, Santa Clara, CA
                             .text-primary.mb-3 June 2022 - September 2022
                             p
-                                | Under the Amazon CodeGuru group as an applied science intern. Collaborated on a novel static code analysis
-                                | rule mining pipeline that resulted in the acceptance of the following paper at ICSE'23:
+                                | Under the Amazon CodeGuru group as an applied science intern, we successfully collaborated on a 
+                                | novel static code analysis rule mining pipeline that resulted in the acceptance of the following paper at ICSE'23:
                                 a(href="https://conf.researchr.org/track/icse-2023/icse-2023-SEIP#event-overview") A Language-agnostic Framework for Mining Static Analysis Rules from Code Changes
 
 
@@ -202,143 +213,6 @@ html(lang='en')
                             span.text-primary March 2011 - November 2015
 
             hr.m-0
-
-            // Skills
-            section#skills.resume-section
-                .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Core Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-java
-                        li.list-inline-item
-                            i.fab.fa-python
-                        li.list-inline-item
-                            i.fab.fa-js
-                        li.list-inline-item
-                            i.fab.fa-docker
-                    .subheading.mb-3 Current Stack
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-server
-                            | Scala
-                        li
-                            span.fa-li
-                                i.fas.fa-database
-                            | OverflowDB
-                        li
-                            span.fa-li
-                                i.fas.fa-tools
-                            | GitHub Actions
-                        li
-                            span.fa-li
-                                i.fas.fa-cloud
-                            | AWS
-
-            hr.m-0
-
-            // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from studies and internships, I enjoy brewing homemade craft beers, gaming and 
-                        | exercise in the form of gym and occasional runs. I also enjoy the fine wine of Stellenbosch
-                        | and Scotch will always be my favourite of the whiskies. Most recently find myself occupied 
-                        | with cooking, baking, and gardening.
-                    p.mb-0
-                        | In high school and my undergraduate I was a member of the ballroom and Latin-American 
-                        | dancing societies. This is something I've only found useful at weddings these days.
-
-            hr.m-0
-
-            // Awards
-            section#awards.resume-section
-                .resume-section-content
-                    h2.mb-5 Awards & Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            a(href="https://www.amazon.science/research-awards/recipients/david-baker-effendi-2020") Amazon Research Award Recipient (2020)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            a(href="https://devpost.com/software/plume-cpg-analysis-library") TigerGraph Graphathon: 2nd Place (2020)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Best Computer Science Honours Project (2019)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Member of the Golden Key Society (2016)
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | The Duke of Edinburgh's Award (2015)
-
-            // Conferences
-            section#conferences.resume-section
-                .resume-section-content
-                    h2.mb-4 Conferences
-
-                    h3.mb-2 I spoke at
-                    ul.fa-ul.mt-1
-                        li
-                            span.fa-li
-                                i.fas.fa-microphone.text-warning
-                            a(href="https://www.linkedin.com/feed/update/urn:li:activity:6812782122072465409/") Shifting Left 2.0
-                        li 
-                            span.fa-li
-                                i.fas.fa-microphone.text-warning
-                            a(href="https://pheedloop.com/graphaiworld/site/sessions/?id=FVsjlV") TigerGraph Graph+AI World (2020)
-
-                    h3.mb-2 I attended
-                    ul.fa-ul.mt-1
-                        li
-                            span.fa-li
-                                i.fas.fa-certificate.text-warning
-                            a(href="https://2021.splashcon.org") Splash 2021
-                        li
-                            span.fa-li
-                                i.fas.fa-certificate.text-warning
-                            a(href="assets/img/aws-dev-day-2020.png") AWS Dev Day Online (2020)
-                        li
-                            span.fa-li
-                                i.fas.fa-certificate.text-warning
-                            a(href="assets/img/geekle-java-2020.pdf") Geekle Global Summit for Java Devs: Senior Track (2020)
-                        li
-                            span.fa-li
-                                i.fas.fa-certificate.text-warning
-                            a(href="assets/img/aws-virtual-day-2020.png") AWS Africa Region Virtual Day (2020)
-
-            // Leadership
-            section#leadership.resume-section
-               .resume-section-content
-                    h2.mb-5 Leadership
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
-                        .flex-grow-1
-                            h3.mb-0 Member of the House Committee
-                            .subheading.mb-3 Helderberg Men's Residence
-                        .flex-shrink-0
-                            span.text-primary September 2018 - September 2019
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
-                        .flex-grow-1
-                            h3.mb-0 Head Mentor
-                            .subheading.mb-3 Helderberg Men's Residence
-                        .flex-shrink-0
-                            span.text-primary September 2017 - September 2018
-                    
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Mentor
-                            .subheading.mb-3 Helderberg Men's Residence
-                        .flex-shrink-0
-                            span.text-primary October 2016 - October 2017
 
             // Projects
             section#projects.resume-section
@@ -441,6 +315,130 @@ html(lang='en')
 
                         .flex-shrink-0
                             span.text-primary March 2019 - March 2020
+
+            hr.m-0
+
+            // Skills
+            section#skills.resume-section
+                .resume-section-content
+                    h2.mb-5 Skills
+                    .subheading.mb-3 Core Programming Languages & Tools
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fab.fa-java
+                        li.list-inline-item
+                            i.fab.fa-python
+                        li.list-inline-item
+                            i.fab.fa-js
+                        li.list-inline-item
+                            i.fab.fa-docker
+                    .subheading.mb-3 Current Stack
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-server
+                            | Scala
+                        li
+                            span.fa-li
+                                i.fas.fa-database
+                            | OverflowDB
+                        li
+                            span.fa-li
+                                i.fas.fa-tools
+                            | GitHub Actions
+                        li
+                            span.fa-li
+                                i.fas.fa-cloud
+                            | AWS
+
+            hr.m-0
+
+            // Awards
+            section#awards.resume-section
+                .resume-section-content
+                    h2.mb-5 Awards & Certifications
+                    ul.fa-ul.mb-0
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            a(href="https://www.amazon.science/research-awards/recipients/david-baker-effendi-2020") Amazon Research Award Recipient (2020)
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            a(href="https://devpost.com/software/plume-cpg-analysis-library") TigerGraph Graphathon: 2nd Place (2020)
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Best Computer Science Honours Project (2019)
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | Member of the Golden Key Society (2016)
+                        li
+                            span.fa-li
+                                i.fas.fa-trophy.text-warning
+                            | The Duke of Edinburgh's Award (2015)
+
+            // Conferences
+            section#conferences.resume-section
+                .resume-section-content
+                    h2.mb-4 Conferences
+
+                    h3.mb-2 I spoke at
+                    ul.fa-ul.mt-1
+                        li
+                            span.fa-li
+                                i.fas.fa-microphone.text-warning
+                            a(href="https://www.linkedin.com/feed/update/urn:li:activity:6812782122072465409/") Shifting Left 2.0
+                        li 
+                            span.fa-li
+                                i.fas.fa-microphone.text-warning
+                            a(href="https://pheedloop.com/graphaiworld/site/sessions/?id=FVsjlV") TigerGraph Graph+AI World (2020)
+
+                    h3.mb-2 I attended
+                    ul.fa-ul.mt-1
+                        li
+                            span.fa-li
+                                i.fas.fa-certificate.text-warning
+                            a(href="https://2021.splashcon.org") Splash 2021
+                        li
+                            span.fa-li
+                                i.fas.fa-certificate.text-warning
+                            a(href="assets/img/aws-dev-day-2020.png") AWS Dev Day Online (2020)
+                        li
+                            span.fa-li
+                                i.fas.fa-certificate.text-warning
+                            a(href="assets/img/geekle-java-2020.pdf") Geekle Global Summit for Java Devs: Senior Track (2020)
+                        li
+                            span.fa-li
+                                i.fas.fa-certificate.text-warning
+                            a(href="assets/img/aws-virtual-day-2020.png") AWS Africa Region Virtual Day (2020)
+
+            // Leadership
+            section#leadership.resume-section
+               .resume-section-content
+                    h2.mb-5 Leadership
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            h3.mb-0 Member of the House Committee
+                            .subheading.mb-3 Helderberg Men's Residence
+                        .flex-shrink-0
+                            span.text-primary September 2018 - September 2019
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
+                        .flex-grow-1
+                            h3.mb-0 Head Mentor
+                            .subheading.mb-3 Helderberg Men's Residence
+                        .flex-shrink-0
+                            span.text-primary September 2017 - September 2018
+                    
+                    .d-flex.flex-column.flex-md-row.justify-content-between
+                        .flex-grow-1
+                            h3.mb-0 Mentor
+                            .subheading.mb-3 Helderberg Men's Residence
+                        .flex-shrink-0
+                            span.text-primary October 2016 - October 2017
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
