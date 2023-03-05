@@ -66,12 +66,13 @@ html(lang='en')
                         | David 
                         span.text-primary Baker Effendi
                     .subheading.mb-5
-                        | Stellenbosch University · Cape Town Area, South Africa · +27 83 432 4666 · 
+                        | Stellenbosch University · Cape Town Area, South Africa · 
                         a(href='mailto:dbe@sun.ac.za') dbe@sun.ac.za
                     p.lead.mb-5
-                        | My current position is as a post-graduate computer science student at Stellenbosch University with my
+                        | My current position is as a Ph.D. computer science student at Stellenbosch University with my
                         | current research focus being static data-flow analysis - specifically regarding issues such as scalability 
-                        | and real-world application. I leverage graph database technologies as the storage backend to much of my research.
+                        | issues within real-world application. I leverage graph database technologies as the storage backend to
+                        | much of my research.
                     .social-icons
                         a.social-icon(href='https://www.linkedin.com/in/david-baker-effendi-26584bb9/')
                             i.fab.fa-linkedin-in
@@ -102,11 +103,20 @@ html(lang='en')
                                 | and applied discrete mathematics.
 
                         .flex-shrink-0
-                            span.text-primary February 2019 - Present
+                            span.text-primary February 2019 - Dec 2022
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
                             h3.mb-0 Internships
+
+                            .subheading AWS, Santa Clara, CA
+                            .text-primary.mb-3 June 2022 - September 2022
+                            p
+                                | Under the Amazon CodeGuru group as an applied science intern. Collaborated on a novel static code analysis
+                                | rule mining pipeline that resulted in the acceptance of the following paper at ICSE'23:
+                                a(href="https://conf.researchr.org/track/icse-2023/icse-2023-SEIP#event-overview") A Language-agnostic Framework for Mining Static Analysis Rules from Code Changes
+
+
                             .subheading ACI Worldwide, CPT
                             .text-primary.mb-3 December 2019 - January 2020
                             p
@@ -157,9 +167,14 @@ html(lang='en')
                             div Computer Science
                             p Upgraded from MSc in 2021
                             p Publications:
-                                    a(href="https://www.mdpi.com/1999-5903/12/5/78") Suitability of Graph Database Technology for the Analysis of Spatio-Temporal Data
+                            ul
+                              li 
+                                a(href="https://conf.researchr.org/track/icse-2023/icse-2023-SEIP#event-overview") A Language-agnostic Framework for Mining Static Analysis Rules from Code Changes
+                              li
+                                a(href="https://www.mdpi.com/1999-5903/12/5/78") Suitability of Graph Database Technology for the Analysis of Spatio-Temporal Data
+
                         .flex-shrink-0
-                            span.text-primary February 2019 - Present
+                            span.text-primary February 2020 - Present
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
                         .flex-grow-1
@@ -192,54 +207,30 @@ html(lang='en')
             section#skills.resume-section
                 .resume-section-content
                     h2.mb-5 Skills
-                    .subheading.mb-3 Programming Languages & Tools
+                    .subheading.mb-3 Core Programming Languages & Tools
                     ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.devicon-typescript-plain
-                        li.list-inline-item
-                            i.fab.fa-python
                         li.list-inline-item
                             i.fab.fa-java
                         li.list-inline-item
-                            i.fab.fa-angular
+                            i.fab.fa-python
                         li.list-inline-item
-                            i.fab.fa-vuejs
+                            i.fab.fa-js
                         li.list-inline-item
                             i.fab.fa-docker
-                        li.list-inline-item
-                            i.devicon-debian-plain
-                        li.list-inline-item
-                            i.devicon-git-plain
-                        li.list-inline-item
-                            i.devicon-gradle-plain
-                        li.list-inline-item
-                            i.devicon-postgresql-plain
-                        li.list-inline-item
-                            i.devicon-protractor-plain
-                        li.list-inline-item
-                            i.devicon-jasmine-plain
-                        li.list-inline-item
-                            i.devicon-travis-plain-wordmark
-                        li.list-inline-item
-                            i.devicon-amazonwebservices-original
-                    .subheading.mb-3 Preferred Stack
+                    .subheading.mb-3 Current Stack
                     ul.fa-ul.mb-0
                         li
                             span.fa-li
-                                i.fas.fa-desktop
-                            | Flutter | Vue.js
-                        li
-                            span.fa-li
                                 i.fas.fa-server
-                            | Kotlin | Scala
+                            | Scala
                         li
                             span.fa-li
                                 i.fas.fa-database
-                            | TigerGraph | PostgreSQL | ScyllaDB
+                            | OverflowDB
                         li
                             span.fa-li
                                 i.fas.fa-tools
-                            | GitHub Actions | Travis-CI | GitLab CI/CD
+                            | GitHub Actions
                         li
                             span.fa-li
                                 i.fas.fa-cloud
@@ -356,10 +347,33 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
+                            h3.mb-0 Joern
+                            .subheading.mb-3 Open-source code analysis platform based on code property graphs
+                            p
+                                | I am an 
+                                a(href="https://github.com/joernio/joern/graphs/contributors") active contributor
+                                | on 
+                                a(href="https://joern.io") Joern 
+                                | and help maintain the project while contributing my research efforts as new features. I largely own 
+                                | the 
+                                code jimple2cpg 
+                                | language frontend, dynamic type recovery, and call graph analysis algorithms. I have
+                                | also contributed as minor improvements to the data-flow tracking engine in the form of bug fixes and 
+                                | performance improvements.
+                            p
+                                | Outside of contributions, I also review pull requests for contributors outside of the core Joern.io group
+                                | and also offer a paid service to onboard companies who wish to integrate Joern as part of their proprietary
+                                | systems. 
+                            
+                        .flex-shrink-0
+                            span.text-primary March 2021 - Present
+
+                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
+                        .flex-grow-1
                             h3.mb-0 Plume
                             .subheading.mb-3 JVM bytecode code-property graph (CPG) language frontend
                             p
-                                | Plume is a Kotlin library with the purpose of extracting a program's code-property graph (CPG) from JVM bytecode.
+                                | Plume is a Scala library with the purpose of extracting a program's code-property graph (CPG) from JVM bytecode.
                                 | The graph is persisted in a graph database of which the library supports multiple.
                                 | Dataflow analysis is then performed on the CPG to track multiple dataflow issues.
                             p
@@ -374,7 +388,7 @@ html(lang='en')
                                 | and won 2nd place.
 
                         .flex-shrink-0
-                            span.text-primary March 2020 - Present
+                            span.text-primary March 2020 - Present (maintenance mode)
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
