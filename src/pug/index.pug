@@ -44,16 +44,11 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#publications') Publications
+                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#projects') Projects
                     li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#skills') Skills
-                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#awards') Awards
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#conferences') Conferences
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#leadership') Leadership
-
 
         // Page Content
         .container-fluid.p-0
@@ -64,23 +59,24 @@ html(lang='en')
                     h1.mb-0
                         | David 
                         span.text-primary Baker Effendi
-                    .subheading.mb-5
-                        | Stellenbosch University · Cape Town Area, South Africa · 
+                    .subheading.mb-3
+                        | Stellenbosch University · Cape Winelands, South Africa · 
                         a(href='mailto:dbe@sun.ac.za') dbe@sun.ac.za
+                    p.lead.mb-3
+                        | Ph.D. Computer Science student at Stellenbosch University researching static program analysis.
+                        | Areas of focus include performant data-flow analysis within resource contrained environments and
+                        | leveraging statistical techniques to mine and enhance downstream analysis tasks.
+                    .subheading.mb-3
+                        | Whirly Labs · Cape Town, South Africa · 
+                        a(href='mailto:contact@whirlylabs.com') contact@whirlylabs.com
                     p.lead.mb-5
-                        | My current position is as a Ph.D. computer science student at Stellenbosch University with my
-                        | current research focus being static data-flow analysis - specifically regarding issues such as scalability 
-                        | issues within real-world application. I leverage graph database technologies as the storage backend to
-                        | much of my research.
+                        | Director of research and development at Whirly Labs leading the development of in-house program 
+                        | analysis tools as well as custom static analysis for clients across the globe.
                     .social-icons
                         a.social-icon(href='https://www.linkedin.com/in/david-baker-effendi-26584bb9/')
                             i.fab.fa-linkedin-in
                         a.social-icon(href='https://github.com/DavidBakerEffendi')
                             i.fab.fa-github
-                        a.social-icon(href='https://twitter.com/SDBakerEffendi')
-                            i.fab.fa-twitter
-                        a.social-icon(href='https://medium.com/@dbakereffendi')
-                            i.fab.fa-medium
                         a.social-icon(href='https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F4xGEhl_IY5eJIOSuBDeAfBCx_BEXBYuq75iLP5yUnWWH1xk9Mzxdou3tcnVnXrZpYshtUY7Pvo2KNKZKCRG7XlaEONmQ&user=c8cUcHsAAAAJ')
                             i.fab.fa-google
 
@@ -180,12 +176,6 @@ html(lang='en')
                             .subheading.mb-3 PhD Candidate
                             div Computer Science
                             p Upgraded from MSc in 2021
-                            p Publications:
-                            ul
-                              li 
-                                a(href="https://conf.researchr.org/track/icse-2023/icse-2023-SEIP#event-overview") A Language-agnostic Framework for Mining Static Analysis Rules from Code Changes
-                              li
-                                a(href="https://www.mdpi.com/1999-5903/12/5/78") Suitability of Graph Database Technology for the Analysis of Spatio-Temporal Data
 
                         .flex-shrink-0
                             span.text-primary February 2020 - Present
@@ -214,6 +204,27 @@ html(lang='en')
                             div Mathematics, Physics, Biology, and Information Technology
                         .flex-shrink-0
                             span.text-primary March 2011 - November 2015
+
+            hr.m-0
+
+            // Publications
+            section#publications.resume-section
+                .resume-section-content
+                    h2.mb-4 Publications
+
+                    ul.fa-ul.mt-1
+                        li
+                            span.fa-li.mt-2
+                                i.fas.fa-book.text-warning
+                            a.subheading(href="https://ieeexplore.ieee.org/abstract/document/10172858") A Language-agnostic Framework for Mining Static Analysis Rules from Code Changes
+                            p.text-primary.mb-1 S. D. Baker Effendi, B. Çirisci, R. Mukherjee, H. A. Nguyen and O. Tripp
+                            p ICSE 2023
+                        li 
+                            span.fa-li.mt-2
+                                i.fas.fa-book.text-warning
+                            a.subheading(href="https://www.mdpi.com/1999-5903/12/5/78") Suitability of Graph Database Technology for the Analysis of Spatio-Temporal Data
+                            p.text-primary.mb-1 S. D. Baker Effendi, B. van der Merwe, and W-T Balke
+                            p  Future Internet 2020
 
             hr.m-0
 
@@ -321,41 +332,6 @@ html(lang='en')
 
             hr.m-0
 
-            // Skills
-            section#skills.resume-section
-                .resume-section-content
-                    h2.mb-5 Skills
-                    .subheading.mb-3 Core Programming Languages & Tools
-                    ul.list-inline.dev-icons
-                        li.list-inline-item
-                            i.fab.fa-java
-                        li.list-inline-item
-                            i.fab.fa-python
-                        li.list-inline-item
-                            i.fab.fa-js
-                        li.list-inline-item
-                            i.fab.fa-docker
-                    .subheading.mb-3 Current Stack
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-server
-                            | Scala
-                        li
-                            span.fa-li
-                                i.fas.fa-database
-                            | OverflowDB
-                        li
-                            span.fa-li
-                                i.fas.fa-tools
-                            | GitHub Actions
-                        li
-                            span.fa-li
-                                i.fas.fa-cloud
-                            | AWS
-
-            hr.m-0
-
             // Awards
             section#awards.resume-section
                 .resume-section-content
@@ -381,67 +357,6 @@ html(lang='en')
                             span.fa-li
                                 i.fas.fa-trophy.text-warning
                             | The Duke of Edinburgh's Award (2015)
-
-            // Conferences
-            section#conferences.resume-section
-                .resume-section-content
-                    h2.mb-4 Conferences
-
-                    h3.mb-2 I spoke at
-                    ul.fa-ul.mt-1
-                        li
-                            span.fa-li
-                                i.fas.fa-microphone.text-warning
-                            a(href="https://www.linkedin.com/feed/update/urn:li:activity:6812782122072465409/") Shifting Left 2.0
-                        li 
-                            span.fa-li
-                                i.fas.fa-microphone.text-warning
-                            a(href="https://pheedloop.com/graphaiworld/site/sessions/?id=FVsjlV") TigerGraph Graph+AI World (2020)
-
-                    h3.mb-2 I attended
-                    ul.fa-ul.mt-1
-                        li
-                            span.fa-li
-                                i.fas.fa-certificate.text-warning
-                            a(href="https://2021.splashcon.org") Splash 2021
-                        li
-                            span.fa-li
-                                i.fas.fa-certificate.text-warning
-                            a(href="assets/img/aws-dev-day-2020.png") AWS Dev Day Online (2020)
-                        li
-                            span.fa-li
-                                i.fas.fa-certificate.text-warning
-                            a(href="assets/img/geekle-java-2020.pdf") Geekle Global Summit for Java Devs: Senior Track (2020)
-                        li
-                            span.fa-li
-                                i.fas.fa-certificate.text-warning
-                            a(href="assets/img/aws-virtual-day-2020.png") AWS Africa Region Virtual Day (2020)
-
-            // Leadership
-            section#leadership.resume-section
-               .resume-section-content
-                    h2.mb-5 Leadership
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
-                        .flex-grow-1
-                            h3.mb-0 Member of the House Committee
-                            .subheading.mb-3 Helderberg Men's Residence
-                        .flex-shrink-0
-                            span.text-primary September 2018 - September 2019
-
-                    .d-flex.flex-column.flex-md-row.justify-content-between.mb-3
-                        .flex-grow-1
-                            h3.mb-0 Head Mentor
-                            .subheading.mb-3 Helderberg Men's Residence
-                        .flex-shrink-0
-                            span.text-primary September 2017 - September 2018
-                    
-                    .d-flex.flex-column.flex-md-row.justify-content-between
-                        .flex-grow-1
-                            h3.mb-0 Mentor
-                            .subheading.mb-3 Helderberg Men's Residence
-                        .flex-shrink-0
-                            span.text-primary October 2016 - October 2017
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
