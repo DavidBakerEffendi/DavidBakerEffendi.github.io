@@ -5,10 +5,14 @@ $gray-800: #343a40;
 // Override Bootstrap color system
 
 $maroon: #60223b;
+$whirlyblue: #1f6ba1;
+$off-white: #dadada;
 
 // Override Bootstrap default state colors
 
-$primary: $maroon;
+$primary: $whirlyblue;
+$primary-dark: #041525;
+$secondary: rgb(91, 31, 176);
 
 // Override Bootstrap yiq lightness value
 
