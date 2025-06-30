@@ -1,0 +1,97 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Sedick David Baker Effendi
+    - name: Location
+      value: Cape Town, South Africa
+    - name: Languages
+      value: English, Afrikaans
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD Computer Science
+      institution: University of Stellenbosch, Stellenbosch, South Africa
+      year: 2025
+      description:
+        - title: An Approach to Modern Static Analysis with Property Graphs
+          contents:
+            - Brink van der Merwe
+            - Willem Visser
+            - Fabian Yamaguchi
+    - title: Bachelor of Science (Hons.) <i>Cum laude</i>
+      institution: University of Stellenbosch, Stellenbosch, South Africa
+      year: 2019
+
+    - title: Bachelor of Science
+      institution: University of Stellenbosch, Stellenbosch, South Africa
+      year: 2018
+    - title: Matric
+      institution: Grey High School, Gqeberha, South Africa
+      year: 2015
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Senior Software Engineer (Remote)
+      institution: Brokk, Inc., Austin, Texas, USA
+      year: Since 2025
+
+    - title: Visiting Lecturer
+      institution: University of Stellenbosch, Stellenbosch, South Africa
+      year: Since 2025
+
+    - title: Chief Scientific Officer
+      institution: Whirly Labs (Pty) Ltd., Cape Town
+      year: 2023 - 2025
+
+- title: Internships
+  type: time_table
+  contents:
+    - title: Applied Scientist Intern
+      institution: Amazon Web Services, Santa Clara, California, USA
+      year: June - Sept 2022
+
+    - title: Developer Intern
+      institution: ACI Worldwide, Cape Town
+      year: 2017 - 2020
+      description: Various vacation internships
+
+    - title: Developer Intern
+      institution: MWR Infosecurity, Johannesburg
+      year: June 2019
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/joernio/joern">Joern</a> The Bug Hunter's Workbench.
+      year: Since 2022
+    - title: <a href="https://github.com/plume-oss/plume">Plume</a> AST-to-graph-database benchmarking suite.
+      year: 2020 - 2024
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2020
+      items:
+        - <a href="https://www.amazon.science/research-awards/recipients/david-baker-effendi-2020">Amazon Research Award</a>
+        - <a href="https://devpost.com/software/plume-cpg-analysis-library">TigerGraph Graphathon (2nd Place)</a>
+    - year: 2019
+      items:
+        - Best Computer Science Honours Project
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Static Program Analysis
+      items:
+        - Language agnostic
+        - Pragmatic, scalable
+        - Machine learning integration
+        - Open to cool multi-disciplinary integrations
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Indoor rock climbing and walking my dogs around Cape Town's beautiful parks
