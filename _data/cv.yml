@@ -8,6 +8,21 @@
     - name: Languages
       value: English, Afrikaans
 
+- title: Experience
+  type: time_table
+  contents:
+    - title: Senior Software Engineer (Remote)
+      institution: Brokk, Inc., Austin, Texas, USA
+      year: Since 2025
+
+    - title: Visiting Lecturer
+      institution: University of Stellenbosch, Stellenbosch, South Africa
+      year: Since 2025
+
+    - title: Chief Scientific Officer
+      institution: Whirly Labs (Pty) Ltd., Cape Town
+      year: 2023 - 2025
+
 - title: Education
   type: time_table
   contents:
@@ -30,21 +45,6 @@
     - title: Matric
       institution: Grey High School, Gqeberha, South Africa
       year: 2015
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Senior Software Engineer (Remote)
-      institution: Brokk, Inc., Austin, Texas, USA
-      year: Since 2025
-
-    - title: Visiting Lecturer
-      institution: University of Stellenbosch, Stellenbosch, South Africa
-      year: Since 2025
-
-    - title: Chief Scientific Officer
-      institution: Whirly Labs (Pty) Ltd., Cape Town
-      year: 2023 - 2025
 
 - title: Internships
   type: time_table
