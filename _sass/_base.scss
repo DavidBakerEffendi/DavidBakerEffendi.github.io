@@ -215,6 +215,23 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+.homepage-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0 2rem;
+
+  .btn {
+    flex: 1 1 auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .homepage-cta .btn {
+    flex-basis: 100%;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
