@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Open-source software for code intelligence, static analysis, and coding agents.
 nav: true

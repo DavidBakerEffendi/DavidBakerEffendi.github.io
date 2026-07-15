@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Sedick David Baker Effendi
+      value: David Baker Effendi
     - name: Location
       value: Cape Town, South Africa
     - name: Languages
@@ -65,6 +65,8 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: <a href="https://github.com/BrokkAi/bifrost">Bifrost</a> Multi-language static analysis for coding agents.
+      year: Since 2025
     - title: <a href="https://github.com/joernio/joern">Joern</a> The Bug Hunter's Workbench.
       year: Since 2022
     - title: <a href="https://github.com/plume-oss/plume">Plume</a> AST-to-graph-database benchmarking suite.

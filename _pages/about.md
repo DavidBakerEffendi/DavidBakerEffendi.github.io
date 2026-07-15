@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Senior Software Engineer @ <a href="https://brokk.ai">Brokk, Inc.</a>
+subtitle: Building code intelligence for agents at <a href="https://brokk.ai">Brokk</a>
 
 profile:
   align: right

@@ -2,17 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: David Baker Effendi
 first_name: David
 middle_name:
 last_name: Baker Effendi
 contact_note: >
-  If you'd like to reach me, please use LinkedIn or Twitter
+  Find me on <a href="https://github.com/DavidBakerEffendi">GitHub</a>,
+  <a href="https://www.linkedin.com/in/david-baker-effendi-26584bb9">LinkedIn</a>,
+  or <a href="https://twitter.com/SDBakerEffendi">Twitter</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   David Baker Effendi is a software engineer working on open-source, multi-language code intelligence, static analysis and program verification for AI coding agents.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text:
 keywords: code intelligence, static analysis, program analysis, program verification, coding agents, developer tools, open source, MCP, language server protocol, Rust
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -215,8 +215,8 @@ display_categories: [] # these categories will be displayed on the front page of
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Baker Effendi]
+  first_name: [Sedick David, David, S. D.]
 
   style: apa
   locale: en

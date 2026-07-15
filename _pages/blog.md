@@ -1,6 +1,6 @@
 ---
 layout: page
-title: writing
+title: Writing
 permalink: /blog/
 description: Engineering notes on code intelligence, static analysis, and building tools for coding agents.
 nav: true
