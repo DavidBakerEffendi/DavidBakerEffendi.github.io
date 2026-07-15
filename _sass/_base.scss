@@ -226,8 +226,16 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
 @media (max-width: 575px) {
-  .homepage-cta .btn {
+  .homepage-cta .btn,
+  .project-links .btn {
     flex-basis: 100%;
   }
 }
