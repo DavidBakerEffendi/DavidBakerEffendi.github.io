@@ -62,14 +62,16 @@
       institution: MWR Infosecurity, Johannesburg
       year: June 2019
 
-- title: Open Source Projects
+- title: Open Source Contributions
   type: time_table
   contents:
-    - title: <a href="https://github.com/BrokkAi/bifrost">Bifrost</a> Multi-language static analysis for coding agents.
+    - title: <a href="/projects/bifrost/">Bifrost</a> Active contributor to multi-language static analysis for coding agents.
       year: Since 2025
-    - title: <a href="https://github.com/joernio/joern">Joern</a> The Bug Hunter's Workbench.
-      year: Since 2022
-    - title: <a href="https://github.com/plume-oss/plume">Plume</a> AST-to-graph-database benchmarking suite.
+    - title: <a href="/projects/anvil/">Anvil</a> Active contributor to Brokk's reusable ACP agent backend.
+      year: Since 2025
+    - title: <a href="/projects/joern/">Joern</a> Past contributor to the code property graph analysis platform.
+      year: 2022 - 2025
+    - title: <a href="/projects/plume/">Plume</a> Past primary maintainer of the graph-database benchmarking suite.
       year: 2020 - 2024
 
 - title: Honors and Awards

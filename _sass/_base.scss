@@ -233,6 +233,15 @@ ul.task-list input[type="checkbox"] {
   margin-top: 2rem;
 }
 
+.project-contribution {
+  margin-bottom: 0.5rem;
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 @media (max-width: 575px) {
   .homepage-cta .btn,
   .project-links .btn {
