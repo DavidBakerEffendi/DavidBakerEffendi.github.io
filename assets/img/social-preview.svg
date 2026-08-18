@@ -1,34 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">David Baker Effendi — open-source code intelligence</title>
-  <desc id="desc">A restrained dark graphic with connected code nodes and a bridge-like arc.</desc>
-  <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2698ba" />
-      <stop offset="1" stop-color="#b509ac" />
-    </linearGradient>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#ffffff" stroke-opacity="0.045" />
-    </pattern>
-  </defs>
-  <rect width="1200" height="630" fill="#1c1c1d" />
-  <rect width="1200" height="630" fill="url(#grid)" />
-  <rect x="68" y="68" width="8" height="494" rx="4" fill="url(#accent)" />
+  <title id="title">David Baker Effendi — code intelligence for coding agents</title>
+  <desc id="desc">David Baker Effendi's online CV, focused on code intelligence for coding agents at Brokk.</desc>
 
-  <g transform="translate(760 112)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 8 292 C 118 48, 292 48, 402 292" stroke="url(#accent)" stroke-width="15" />
-    <path d="M 48 292 L 48 210 M 362 292 L 362 210" stroke="#2698ba" stroke-width="8" />
-    <path d="M 48 250 L 362 250" stroke="#ffffff" stroke-opacity="0.42" stroke-width="5" />
-    <path d="M 112 250 L 112 168 M 205 250 L 205 135 M 298 250 L 298 168" stroke="#ffffff" stroke-opacity="0.25" stroke-width="4" />
-    <circle cx="112" cy="168" r="13" fill="#1c1c1d" stroke="#2698ba" stroke-width="7" />
-    <circle cx="205" cy="135" r="13" fill="#1c1c1d" stroke="#7085c7" stroke-width="7" />
-    <circle cx="298" cy="168" r="13" fill="#1c1c1d" stroke="#b509ac" stroke-width="7" />
-    <path d="M 96 356 L 48 404 96 452 M 314 356 L 362 404 314 452" stroke="#ffffff" stroke-opacity="0.72" stroke-width="11" />
+  <rect width="1200" height="630" fill="#1c1c1d" />
+
+  <g transform="translate(104 104)">
+    <path
+      d="M25 13 10 32l15 19"
+      fill="none"
+      stroke="#f2f2f2"
+      stroke-width="7"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="m39 13 15 19-15 19"
+      fill="none"
+      stroke="#f2f2f2"
+      stroke-width="7"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <circle cx="32" cy="32" r="5" fill="#f2f2f2" />
   </g>
 
-  <g font-family="Inter, Arial, sans-serif" fill="#f2f2f2">
-    <text x="116" y="206" font-size="67" font-weight="700">David Baker Effendi</text>
-    <text x="116" y="294" font-size="35" fill="#d8d8d8">Open-source code intelligence</text>
-    <text x="116" y="340" font-size="35" fill="#d8d8d8">for coding agents</text>
-    <text x="116" y="468" font-size="21" font-weight="700" letter-spacing="4" fill="#58b8d5">BIFROST · STATIC ANALYSIS · RUST</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="104" y="290" fill="#f2f2f2" font-size="70" font-weight="700">David Baker Effendi</text>
+    <text x="104" y="362" fill="#d8d8d8" font-size="31">Building code intelligence for coding agents at Brokk</text>
+    <rect x="104" y="430" width="224" height="4" fill="#f2f2f2" />
+    <text x="104" y="516" fill="#a5a5a5" font-size="20" letter-spacing="3">DAVIDBAKEREFFENDI.GITHUB.IO</text>
   </g>
 </svg>
