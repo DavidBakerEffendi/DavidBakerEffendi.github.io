@@ -15,7 +15,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text:
 keywords: code intelligence, static analysis, program analysis, program verification, coding agents, developer tools, open source, MCP, language server protocol, Rust
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg # the favicon source (PNG fallback is emitted alongside it)
 
 url: https://davidbakereffendi.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
