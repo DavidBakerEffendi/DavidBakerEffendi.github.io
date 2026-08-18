@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Code mark</title>
+  <desc id="desc">Neutral angle brackets around a centered node.</desc>
+  <style>
+    .mark-stroke { stroke: #1c1c1d; }
+    .mark-fill { fill: #1c1c1d; }
+    @media (prefers-color-scheme: dark) {
+      .mark-stroke { stroke: #f2f2f2; }
+      .mark-fill { fill: #f2f2f2; }
+    }
+  </style>
+  <path
+    d="M25 13 10 32l15 19"
+    fill="none"
+    class="mark-stroke"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="m39 13 15 19-15 19"
+    fill="none"
+    class="mark-stroke"
+    stroke-width="7"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="32" cy="32" r="5" class="mark-fill" />
+</svg>
