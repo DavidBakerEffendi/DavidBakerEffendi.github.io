@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Open-source software for code intelligence, static analysis, and coding agents.",
+          description: "My main work is Bifrost and SlopCop, alongside secondary and historical software projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Experience, education, open-source work, and academic background.",
+          description: "Experience, education, Bifrost and SlopCop development, other software contributions, and academic background.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -64,6 +64,11 @@ ninja.data = [{
           description: "A graph-database-agnostic JVM bytecode frontend and benchmarking suite for code property graph research.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/plume.html";
+            },},{id: "projects-slopcop",
+          title: 'SlopCop',
+          description: "An online repository scanner and living code review built around static-analysis evidence and bounded deeper AI review.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/slopcop.html";
             },},{
         id: 'social-github',
         title: 'GitHub',

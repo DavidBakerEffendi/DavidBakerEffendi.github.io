@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">David Baker Effendi — code intelligence for coding agents</title>
-  <desc id="desc">David Baker Effendi's online CV, focused on code intelligence for coding agents at Brokk.</desc>
+  <title id="title">David Baker Effendi — Bifrost and SlopCop</title>
+  <desc id="desc">David Baker Effendi's online CV, focused on developing Bifrost and the SlopCop online scanner.</desc>
 
   <rect width="1200" height="630" fill="#1c1c1d" />
 
@@ -26,7 +26,7 @@
 
   <g font-family="Inter, Arial, sans-serif">
     <text x="104" y="290" fill="#f2f2f2" font-size="70" font-weight="700">David Baker Effendi</text>
-    <text x="104" y="362" fill="#d8d8d8" font-size="31">Building code intelligence for coding agents at Brokk</text>
+    <text x="104" y="362" fill="#d8d8d8" font-size="31">Building Bifrost and the SlopCop online scanner</text>
     <rect x="104" y="430" width="224" height="4" fill="#f2f2f2" />
     <text x="104" y="516" fill="#a5a5a5" font-size="20" letter-spacing="3">DAVIDBAKEREFFENDI.GITHUB.IO</text>
   </g>
