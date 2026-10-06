@@ -65,15 +65,15 @@
 - title: Software Projects
   type: time_table
   contents:
-    - title: <a href="/projects/bifrost/">Bifrost</a> Primary developer of multi-language static analysis for coding agents.
+    - title: <a href="/projects/bifrost.html">Bifrost</a> Primary developer of multi-language static analysis for coding agents.
       year: Since 2025
-    - title: <a href="/projects/slopcop/">SlopCop</a> Primary developer of the online repository scanner and living code review.
+    - title: <a href="/projects/slopcop.html">SlopCop</a> Primary developer of the online repository scanner and living code review.
       year: Current
-    - title: <a href="/projects/anvil/">Anvil</a> Active contributor to <a href="https://slopcop.com">SlopCop</a>'s reusable ACP agent backend.
+    - title: <a href="/projects/anvil.html">Anvil</a> Active contributor to <a href="https://slopcop.com">SlopCop</a>'s reusable ACP agent backend.
       year: Since 2025
-    - title: <a href="/projects/joern/">Joern</a> Past contributor to the code property graph analysis platform.
+    - title: <a href="/projects/joern.html">Joern</a> Past contributor to the code property graph analysis platform.
       year: 2022 - 2025
-    - title: <a href="/projects/plume/">Plume</a> Past primary maintainer of the graph-database benchmarking suite.
+    - title: <a href="/projects/plume.html">Plume</a> Past primary maintainer of the graph-database benchmarking suite.
       year: 2020 - 2024
 
 - title: Honors and Awards

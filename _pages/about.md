@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My main work at [SlopCop](https://slopcop.com) is [Bifrost](/projects/bifrost/) and the [SlopCop online scanner](/projects/slopcop/). I develop the code intelligence underneath and the repository reviews that put it to use.
+My main work at [SlopCop](https://slopcop.com) is [Bifrost](/projects/bifrost.html) and the [SlopCop online scanner](/projects/slopcop.html). I develop the code intelligence underneath and the repository reviews that put it to use.
 
 [Bifrost](https://github.com/BrokkAi/bifrost) is an open-source, multi-language static-analysis toolbox. It gives coding agents and developer tools a structural view of unbuilt or partially broken repositories, including mixed-language workspaces. The engine is available as a Rust crate, MCP server, LSP, CLI, and Python client, with queries for code structure and relationships such as usages, imports, and type hierarchies.
 
@@ -40,7 +40,7 @@ My main work at [SlopCop](https://slopcop.com) is [Bifrost](/projects/bifrost/) 
 
 ## How I got here
 
-I came to coding agents through program analysis. My PhD at [Stellenbosch University](https://www.sun.ac.za/english/pgstudies/Pages/Science/Computer-Science.aspx) explored how language-agnostic representations, graph backends, and parallel processing could make static analysis more practical at repository scale. Along the way, I maintained [Plume](/projects/plume/) and contributed to [Joern](/projects/joern/), working directly with the opportunities and limitations of code property graphs.
+I came to coding agents through program analysis. My PhD at [Stellenbosch University](https://www.sun.ac.za/english/pgstudies/Pages/Science/Computer-Science.aspx) explored how language-agnostic representations, graph backends, and parallel processing could make static analysis more practical at repository scale. Along the way, I maintained [Plume](/projects/plume.html) and contributed to [Joern](/projects/joern.html), working directly with the opportunities and limitations of code property graphs.
 
 From 2022 to June 2025, I applied that research at [Whirly Labs](https://whirlylabs.com), leading the development of tailored static-analysis systems for clients. That work shifted my focus from analysis as a research artifact toward code intelligence as dependable product infrastructure: tools that must remain useful on large, evolving, and occasionally broken codebases.
 

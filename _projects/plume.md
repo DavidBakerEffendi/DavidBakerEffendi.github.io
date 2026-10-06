@@ -14,7 +14,7 @@ Plume constructs code property graph ASTs from JVM bytecode and stores them acro
 
 I was Plume's primary maintainer from 2020 to 2024. The project supported research into incremental data-flow analysis and graph-database performance, and its original frontend became the basis for Joern's `jimple2cpg` frontend.
 
-Plume remains available for existing users and experiments, but I recommend Joern for new code property graph research. My current work is centered on [Bifrost](/projects/bifrost/) and [SlopCop](/projects/slopcop/).
+Plume remains available for existing users and experiments, but I recommend Joern for new code property graph research. My current work is centered on [Bifrost](/projects/bifrost.html) and [SlopCop](/projects/slopcop.html).
 
 <div class="project-links" aria-label="Plume project links">
   <a class="btn btn-outline-primary" href="https://github.com/plume-oss/plume">Source</a>
