@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: Senior Software Engineer (Remote)
-      institution: Brokk, Inc., Austin, Texas, USA
+      institution: <a href="https://slopcop.com">SlopCop</a>, Austin, Texas, USA
       year: Since 2025
 
     - title: Visiting Lecturer
@@ -62,12 +62,14 @@
       institution: MWR Infosecurity, Johannesburg
       year: June 2019
 
-- title: Open Source Contributions
+- title: Software Projects
   type: time_table
   contents:
-    - title: <a href="/projects/bifrost/">Bifrost</a> Active contributor to multi-language static analysis for coding agents.
+    - title: <a href="/projects/bifrost/">Bifrost</a> Primary developer of multi-language static analysis for coding agents.
       year: Since 2025
-    - title: <a href="/projects/anvil/">Anvil</a> Active contributor to Brokk's reusable ACP agent backend.
+    - title: <a href="/projects/slopcop/">SlopCop</a> Primary developer of the online repository scanner and living code review.
+      year: Current
+    - title: <a href="/projects/anvil/">Anvil</a> Active contributor to <a href="https://slopcop.com">SlopCop</a>'s reusable ACP agent backend.
       year: Since 2025
     - title: <a href="/projects/joern/">Joern</a> Past contributor to the code property graph analysis platform.
       year: 2022 - 2025

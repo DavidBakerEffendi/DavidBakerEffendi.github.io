@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Building code intelligence for agents at <a href="https://brokk.ai">Brokk</a>
+subtitle: Building Bifrost and the online scanner at <a href="https://slopcop.com">SlopCop</a>
 
 profile:
   align: right
@@ -25,14 +25,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I build open-source, multi-language code intelligence for coding agents at [Brokk](https://brokk.ai). [Bifrost](https://github.com/BrokkAi/bifrost) gives agents and developer tools a structural view of unbuilt or partially broken repositories, including mixed-language workspaces.
+My main work at [SlopCop](https://slopcop.com) is [Bifrost](/projects/bifrost/) and the [SlopCop online scanner](/projects/slopcop/). I develop the code intelligence underneath and the repository reviews that put it to use.
 
-The analysis stack is available as a Rust crate, MCP server, LSP, and CLI. Its S-expression query language supports portable structural queries, with semantic layers for relationships such as usages, imports, and type hierarchies built on demand. My work sits at the intersection of static analysis, program verification, and AI-assisted software engineering.
+[Bifrost](https://github.com/BrokkAi/bifrost) is an open-source, multi-language static-analysis toolbox. It gives coding agents and developer tools a structural view of unbuilt or partially broken repositories, including mixed-language workspaces. The engine is available as a Rust crate, MCP server, LSP, CLI, and Python client, with queries for code structure and relationships such as usages, imports, and type hierarchies.
 
-<div class="homepage-cta" aria-label="Bifrost resources">
-  <a class="btn btn-outline-primary" href="https://github.com/BrokkAi/bifrost">View the source</a>
-  <a class="btn btn-outline-primary" href="https://brokkai.github.io/bifrost/">Read the documentation</a>
-  <a class="btn btn-outline-primary" href="https://brokkai.github.io/bifrost/code-querying/">Explore query examples</a>
+[SlopCop](https://slopcop.com) brings that analysis into an online repository review. Static checks surface leads; deeper AI review examines the surrounding code and proposes fixes. Findings keep their source evidence and coverage limits visible, so developers can check the diagnosis and decide what to change.
+
+<div class="homepage-cta" aria-label="Bifrost and SlopCop resources">
+  <a class="btn btn-outline-primary" href="https://slopcop.com">Scan a repository</a>
+  <a class="btn btn-outline-primary" href="https://github.com/BrokkAi/bifrost">Bifrost source</a>
+  <a class="btn btn-outline-primary" href="https://brokkai.github.io/bifrost/">Bifrost documentation</a>
   <a class="btn btn-outline-primary" href="https://twitter.com/SDBakerEffendi">Follow development on Twitter/X</a>
 </div>
 
@@ -42,6 +44,6 @@ I came to coding agents through program analysis. My PhD at [Stellenbosch Univer
 
 From 2022 to June 2025, I applied that research at [Whirly Labs](https://whirlylabs.com), leading the development of tailored static-analysis systems for clients. That work shifted my focus from analysis as a research artifact toward code intelligence as dependable product infrastructure: tools that must remain useful on large, evolving, and occasionally broken codebases.
 
-Since 2025, I have been bringing those lessons to AI-assisted software engineering at [Brokk](https://brokk.ai). My current work on [Bifrost](/projects/bifrost/) and [Anvil](/projects/anvil/) focuses on giving coding agents reliable structural context and a reusable execution environment, rather than asking language models to infer everything from text alone.
+Since 2025, I have been bringing those lessons to AI-assisted software engineering at [SlopCop](https://slopcop.com). Bifrost and the online scanner connect my work in static analysis and program verification to practical code review: finding a suspicious pattern, checking the evidence, and helping people and coding agents make a useful fix.
 
 I remain connected to Stellenbosch University as a visiting lecturer and postgraduate co-supervisor in static program analysis.

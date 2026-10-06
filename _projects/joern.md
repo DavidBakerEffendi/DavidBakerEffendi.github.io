@@ -2,7 +2,7 @@
 layout: page
 title: Joern
 description: An open-source code-analysis platform based on code property graphs, with contributions across language frontends and analysis infrastructure.
-importance: 3
+importance: 4
 category: open source
 contribution: Past contributor
 github: https://github.com/joernio/joern
@@ -14,7 +14,7 @@ Joern is an open-source platform for analyzing source code, bytecode, and binari
 
 I contributed to Joern's language frontends and analysis infrastructure between 2022 and 2025. That work included Python and Java source analysis, type recovery, traversal performance, contributor tooling, and PHP modeling fixes.
 
-Joern remains an important part of my background in practical, language-aware static analysis. My current open-source work focuses on Bifrost and Anvil at Brokk.
+Joern remains an important part of my background in practical, language-aware static analysis. My current work focuses on [Bifrost](/projects/bifrost/) and [SlopCop](/projects/slopcop/).
 
 <div class="project-links" aria-label="Joern project links">
   <a class="btn btn-outline-primary" href="https://github.com/joernio/joern">Source</a>

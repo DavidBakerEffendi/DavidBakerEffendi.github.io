@@ -4,11 +4,11 @@ title: Bifrost
 description: Multi-language static analysis that gives coding agents and developer tools a structural view of real repositories, even when the code does not build.
 importance: 1
 category: open source
-contribution: Active contributor
+contribution: Primary developer
 github: https://github.com/BrokkAi/bifrost
 ---
 
-Bifrost is Brokk's open-source, Rust-based static-analysis toolbox for AI coding harnesses, editors, and large repositories. It parses unbuilt or partially broken codebases, including mixed-language workspaces, so tools can navigate code structure and relationships without relying on text search alone.
+Bifrost is [SlopCop](https://slopcop.com)'s open-source, Rust-based static-analysis toolbox for AI coding harnesses, editors, and large repositories. It parses unbuilt or partially broken codebases, including mixed-language workspaces, so tools can navigate code structure and relationships without relying on text search alone.
 
 ## Interfaces
 

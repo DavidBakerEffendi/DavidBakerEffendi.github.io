@@ -2,13 +2,13 @@
 layout: page
 title: Anvil
 description: A reusable Rust agent backend that gives editors, bots, terminal interfaces, and internal tools the same Agent Client Protocol runtime.
-importance: 2
+importance: 3
 category: open source
 contribution: Active contributor
 github: https://github.com/BrokkAi/anvil
 ---
 
-Anvil is Brokk's open-source Agent Client Protocol (ACP) server. It separates the agent runtime from its user interface, so editors, review bots, terminal clients, and custom automation can share one implementation of model routing, tool execution, permission handling, session storage, and context management.
+Anvil is [SlopCop](https://slopcop.com)'s open-source Agent Client Protocol (ACP) server. It separates the agent runtime from its user interface, so editors, review bots, terminal clients, and custom automation can share one implementation of model routing, tool execution, permission handling, session storage, and context management.
 
 ## One backend, many clients
 
