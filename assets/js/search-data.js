@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "My main work is Bifrost and SlopCop, alongside secondary and historical software projects.",
+          description: "My main work is SlopCop and Bifrost, alongside secondary and historical software projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Experience, education, Bifrost and SlopCop development, other software contributions, and academic background.",
+          description: "Experience, education, SlopCop and Bifrost development, other software contributions, and academic background.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -66,7 +66,7 @@ ninja.data = [{
               window.location.href = "/projects/plume.html";
             },},{id: "projects-slopcop",
           title: 'SlopCop',
-          description: "An online repository scanner and living code review built around static-analysis evidence and bounded deeper AI review.",
+          description: "An online static analysis tool that runs incremental, diff-based checks on code changes, backed by static-analysis evidence and bounded deeper AI review.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/slopcop.html";
             },},{
