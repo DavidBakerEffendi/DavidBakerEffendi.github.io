@@ -2,7 +2,7 @@
 layout: page
 title: Bifrost
 description: Multi-language static analysis that gives coding agents and developer tools a structural view of real repositories, even when the code does not build.
-importance: 1
+importance: 2
 category: open source
 contribution: Primary developer
 github: https://github.com/BrokkAi/bifrost

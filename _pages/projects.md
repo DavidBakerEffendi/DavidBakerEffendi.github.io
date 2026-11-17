@@ -2,13 +2,13 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: My main work is Bifrost and SlopCop, alongside secondary and historical software projects.
+description: My main work is SlopCop and Bifrost, alongside secondary and historical software projects.
 nav: true
 nav_order: 3
 horizontal: true
 ---
 
-My main work is [Bifrost](/projects/bifrost.html), a structural analysis toolkit for coding agents, and [SlopCop](/projects/slopcop.html), an online repository scanner built around evidence-backed living reviews. I also contribute to [Anvil](/projects/anvil.html); Joern and Plume cover earlier open-source work.
+My main work is [SlopCop](/projects/slopcop.html), an online static analysis tool that runs incremental, diff-based checks on code changes, and [Bifrost](/projects/bifrost.html), the structural analysis toolkit underneath it. I also contribute to [Anvil](/projects/anvil.html); Joern and Plume cover earlier open-source work.
 
 {% assign sorted_projects = site.projects | sort: 'importance' %}
 

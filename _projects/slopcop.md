@@ -1,15 +1,17 @@
 ---
 layout: page
 title: SlopCop
-description: An online repository scanner and living code review built around static-analysis evidence and bounded deeper AI review.
-importance: 2
+description: An online static analysis tool that runs incremental, diff-based checks on code changes, backed by static-analysis evidence and bounded deeper AI review.
+importance: 1
 category: software
 contribution: Primary developer
 ---
 
-SlopCop is an online repository scanner and living code review. It accepts read-only access to selected GitHub repositories, including private repositories, and public repository URLs from GitHub, GitLab, and Bitbucket. Reviews start from the latest default-branch revision without executing repository code, running builds, or installing dependencies.
+SlopCop is an online static analysis tool that checks code incrementally. Each check takes a change as a diff against the commit it builds on, so SlopCop examines what changed, in context, instead of re-reviewing the whole repository. Checks run from the `slopcop` CLI or through its MCP server, so coding agents can check their own work before handing it back. SlopCop never executes repository code, runs builds, or installs dependencies.
 
-Its first pass combines static-analysis evidence with findings about correctness, performance, maintainability, tests, credentials, risky APIs, and security-sensitive code. A bounded deeper AI review can add selected source, documentation, architecture, and recent commit context while keeping its scope and incomplete work visible.
+It accepts read-only access to selected GitHub repositories, including private repositories, and public repository URLs from GitHub, GitLab, and Bitbucket.
+
+Each check combines static-analysis evidence with findings about correctness, performance, maintainability, tests, credentials, risky APIs, and security-sensitive code. A bounded deeper AI review can add selected source, documentation, architecture, and recent commit context while keeping its scope and incomplete work visible. Developers can fix a finding or ignore it as a false positive.
 
 SlopCop can propose custom deterministic rules from recurring findings and past fixes. Proposed rules need to be tested against the repository, near misses, and intended behavior before enforcement.
 

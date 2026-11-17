@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-I write about Bifrost, the SlopCop online scanner, and the practical work of building and evaluating static analysis. Most of my current posts appear on the [SlopCop blog](https://blog.brokk.ai/), which is still hosted at blog.brokk.ai. This page is a curated index rather than a separate personal blog.
+I write about SlopCop, Bifrost, and the practical work of building and evaluating static analysis. Most of my current posts appear on the [SlopCop blog](https://blog.brokk.ai/), which is still hosted at blog.brokk.ai. This page is a curated index rather than a separate personal blog.
 
 ## Recent writing at SlopCop
 
